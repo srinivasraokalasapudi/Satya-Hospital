@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+const serviceAppointmentController = require('../controllers/serviceAppointmentController');
+router.get('/', serviceAppointmentController.getAllServiceAppointments);
+router.post('/', serviceAppointmentController.createServiceAppointment);
+router.delete('/clear-all', serviceAppointmentController.clearAllServiceAppointments);
+router.post('/:id/regenerate-ai-brief', serviceAppointmentController.regenerateAIServiceBrief);
+router.get('/:id', serviceAppointmentController.getServiceAppointmentById);
+router.put('/:id', serviceAppointmentController.updateServiceAppointment);
+router.delete('/:id', serviceAppointmentController.deleteServiceAppointment);
+module.exports = router;

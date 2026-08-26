@@ -1,0 +1,186 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#331238;background:#fcf7ff;font-family:Georgia,'Times New Roman',serif}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}.header{height:84px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 max(6%,calc((100% - 1400px)/2));position:sticky;top:0;z-index:50;box-shadow:0 3px 18px #3c064c20}.logo{display:flex;align-items:center;gap:12px;color:#7e079b}.logo img{width:55px;height:55px;object-fit:contain}.logo span{display:flex;flex-direction:column}.logo b{font-size:27px}.logo small{font-size:14px;font-weight:bold}.header nav{display:flex;align-items:center;gap:34px;font-size:17px;font-weight:bold}.navAuth{display:flex;align-items:center;gap:12px}.header nav a:hover,.header nav a.active{color:#9508b9}.login,.btn{background:#9d10ce!important;color:#fff!important;border:0;border-radius:30px;padding:13px 25px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:bold;cursor:pointer;box-shadow:0 8px 18px #8e0dba40}.hamb{display:none;border:0;background:none}.hero{min-height:650px;padding:70px max(7%,calc((100% - 1400px)/2));display:grid;grid-template-columns:1.05fr .95fr;align-items:center;background:linear-gradient(120deg,#faf1ff,#fff)}.eyebrow{color:#8c08ae;font:700 14px Arial;letter-spacing:2px}.hero h1{font-size:64px;line-height:1.08;margin:18px 0;color:#35063d}.hero h1 em,.team em{color:#9410b9}.hero p{font-size:20px;line-height:1.7;color:#6b5370;max-width:650px}.heroBtns{display:flex;gap:15px;margin:30px 0}.outline{background:#fff!important;color:#8b0aae!important;border:1px solid #9911c6}.stats{display:flex;gap:55px;margin-top:45px}.stats b{font-size:28px;color:#800a9d}.stats small{display:block;font:14px Arial;color:#78687b;margin-top:5px}.heroPic{position:relative;height:500px;display:flex;align-items:flex-end;justify-content:center}.heroPic .circle{position:absolute;width:430px;height:430px;border-radius:50%;background:#f2dffb}.heroPic img{position:relative;max-width:620px;width:100%;max-height:500px;object-fit:contain}.cert,.team,.test,.page{padding:70px max(8%,calc((100% - 1400px)/2));text-align:center}.cert{background:#fff;border-top:2px solid #e8c4f7}.cert h2{font-size:48px;color:#6b0a7d;margin:0}.cert h2 span{color:#9613b8}.cert>p,.pagehead p,.team>p{font-size:18px;color:#726675}.certified{display:inline-block;margin:20px;padding:12px 24px;border-radius:30px;background:#f8e8ff;color:#8608a9}.certScroll{margin-top:45px;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}.certlogos{display:flex;gap:70px;width:max-content;animation:certScrollMove 24s linear infinite}.certScroll:hover .certlogos{animation-play-state:paused}.certlogos img{width:80px;height:70px;object-fit:contain}.certlogos div{display:flex;flex-direction:column;gap:12px;align-items:center;flex:0 0 auto}@keyframes certScrollMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}.team{background:#fbf0ff}.team h2,.pagehead h1{font-size:48px;margin:0}.doctorGrid,.serviceGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:25px;margin:45px 0}.doctorCard,.serviceCard{background:#fff;border-radius:18px;overflow:hidden;text-align:left;box-shadow:0 10px 25px #42075b20;transition:.25s}.doctorCard:hover,.serviceCard:hover{transform:translateY(-7px)}.docImg{height:280px;background:#f8e9ff;position:relative;display:flex;justify-content:center;overflow:hidden}.docImg img{height:100%;width:100%;object-fit:contain}.docImg span{position:absolute;top:15px;right:15px;background:#9c10cd;color:#fff;padding:7px 12px;border-radius:20px;font:12px Arial}
+.availBadge{background:#1a9c5a!important}
+.availBadge.unavailBadge{background:#c43838!important}.docBody{padding:20px}.docBody h3,.serviceCard h3{font-size:21px;margin:0 0 7px;color:#50075c}.docBody p{color:#817885}.docBody>div{display:flex;justify-content:space-between}.docBody svg{width:16px;fill:#ffc107;color:#ffc107}.docBody button,.serviceCard button{border:0;background:#9b10cc;color:#fff;width:100%;padding:12px;border-radius:25px;margin-top:15px;font-weight:bold}.center{margin:auto}.test{background:#fff}.testgrid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.test blockquote{background:#fcf6ff;padding:35px;border-radius:18px;font-size:18px}.test blockquote b{display:block;margin-top:20px;color:#7e079b}.page{min-height:650px}.pagehead{margin-bottom:35px}.serviceGrid{grid-template-columns:repeat(3,1fr)}.serviceCard{position:relative}.serviceCard img{height:280px;width:100%;object-fit:cover}.serviceCard h3,.serviceCard p{padding:0 25px}.serviceCard h3{margin-top:14px}.serviceCard p{color:#716374;min-height:45px}.serviceCard button{width:calc(100% - 40px);margin:10px 20px 25px}.serviceCategoryTag{position:absolute;top:250px;left:25px;background:#9c10cd;color:#fff;padding:6px 14px;border-radius:20px;font:12px Arial;font-weight:bold}.servicePriceRow{display:flex;align-items:center;justify-content:space-between;padding:0 25px;margin-top:8px}.servicePrice{display:flex;align-items:center;gap:2px;font-size:20px;font-weight:bold;color:#7e079b}.serviceDuration{display:flex;align-items:center;gap:4px;font-size:13px;color:#8a7e8d}.serviceFilters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:10px}.serviceFilters button{border:1px solid #dfbceb;background:#fff;color:#7e079b;padding:9px 20px;border-radius:30px;font-weight:bold;cursor:pointer}.serviceFilters button.active{background:#9d10ce;color:#fff}.profilePage{background:linear-gradient(120deg,#faefff,#fff);min-height:800px;padding-bottom:60px}.profileTop{height:75px;background:#fff;padding:0 10%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ecd9f5}.profileTop>a,.profileTop>b{border:1px solid #e2c8eb;border-radius:30px;padding:10px 18px}.profileTop b{color:#d89d00;display:flex;gap:8px}.profileTop svg{fill:#ffc107;color:#ffc107}.profile{max-width:1400px;margin:40px auto;background:#fff;border-radius:25px;padding:38px;display:grid;grid-template-columns:380px 1fr;gap:45px;box-shadow:0 20px 40px #41164d20}.profileLeft>img{width:290px;height:290px;border-radius:50%;object-fit:contain;background:#f8eaff;border:8px solid #fff;box-shadow:0 0 35px #a30bd980}.miniStats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:35px}.miniStats b{padding:15px 5px;display:flex;flex-direction:column;align-items:center;font-size:19px;border-right:1px solid #eee;box-shadow:0 6px 12px #0001}.miniStats svg{color:#950bbd}.miniStats small{font-size:13px;font-weight:normal;color:#777}.profileInfo h1{font-size:38px;color:#8308a6;margin:5px 0 12px}.special{background:#9c12ce;color:#fff;border-radius:25px;padding:10px 20px;font-weight:bold;display:inline-block}.infoGrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:28px 0}.infoGrid>div{border:1px solid #ebe3ee;border-radius:50px;padding:15px;display:flex;gap:14px;align-items:center}.infoGrid svg{color:#9a0bc7}.infoGrid span{display:flex;flex-direction:column;color:#444}.infoGrid b,.about h3{color:#76078c}.infoGrid strong,.summary strong{color:#b40035}.availText{color:#1a9c5a!important}.unavailText{color:#c43838!important}.unavailableNotice{display:flex;align-items:center;gap:14px;background:#fff2f2;border:1px solid #f7c2c2;border-radius:16px;padding:22px;color:#8a2a2a;font-size:16px}.unavailableNotice svg{color:#c43838;flex:0 0 auto}.about{border:1px solid #e9e1ec;border-radius:18px;padding:20px 28px;color:#625c64;line-height:1.6}.booking{max-width:1400px;margin:35px auto;background:#fff;border-radius:25px;padding:38px;box-shadow:0 20px 40px #41164d20}.booking h2,.booking h3{color:#76078c}.booking h2{display:flex;gap:12px}.bookingGrid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.datePick{background:#9c12ce;color:#fff;border:0;border-radius:45px;width:90px;height:108px}.datePick b{display:block;font-size:25px}.patient{border:1px solid #e2cceb;border-radius:16px;padding:25px;margin-top:25px;display:grid;grid-template-columns:1fr 1fr;gap:15px}.patient h3,.patient .wide{grid-column:1/-1}.patient input,.patient select,.contact input,.contact textarea,.loginBox input{border:1px solid #dfbfea;border-radius:28px;padding:14px;background:#fff}.slots{display:flex;gap:15px}.slots button{padding:13px 45px;border:1px solid #dfbceb;border-radius:30px;background:#fff}.slots .selected{background:#9b11cd;color:#fff}.summary{background:#f8eaff;padding:25px;border-radius:15px;margin-top:25px}.summary p{display:flex;justify-content:space-between}.full{width:100%}.serviceDetail .profileLeft img{border-radius:20px;width:100%;height:330px;object-fit:contain}.appointmentList{display:grid;gap:15px;max-width:900px;margin:auto}.appointmentList>div{display:flex;align-items:center;gap:20px;text-align:left;background:#fff;padding:20px;border-radius:15px;box-shadow:0 5px 20px #0001}.appointmentList>div>span{margin-left:auto;background:#f6e6ff;color:#76078c;padding:8px 14px;border-radius:20px}.contact{max-width:1000px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:30px;text-align:left;background:#fff;padding:35px;border-radius:20px}.contact p{display:flex;gap:10px}.contact form{display:grid;gap:12px}.loginBox{max-width:440px;margin:auto;background:#fff;border-radius:20px;padding:35px;box-shadow:0 10px 30px #0001;display:grid;gap:15px}.loginBox img{width:80px;margin:auto}.loginHint{font-size:14px;color:#726675;text-align:center;margin:0}.loginBoxWide{max-width:480px}.authTabs{display:grid;grid-template-columns:1fr 1fr;gap:10px;background:#fbf0ff;border-radius:30px;padding:5px}.authTabs button{border:0;background:transparent;padding:11px;border-radius:25px;font-weight:bold;color:#6b5370;cursor:pointer}.authTabs button.active{background:#9d10ce;color:#fff;box-shadow:0 6px 14px #8e0dba40}.loginBox select{border:1px solid #dfbfea;border-radius:28px;padding:14px;background:#fff;width:100%}.loginSections{display:grid;grid-template-columns:1fr 1fr;gap:30px;max-width:980px;margin:auto;align-items:start}.loginForm{display:grid;gap:15px}.loginBtnRow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.adminSection{text-align:center;background:#fcf6ff}.adminSection p{color:#726675;font-size:15px;line-height:1.6;margin:0}.signupRow{display:grid;grid-template-columns:1fr 1fr;gap:15px}@media(max-width:900px){.loginSections{grid-template-columns:1fr}}
+:root{--navy:#0b1d3a;--navy2:#0f2a5e;--blue:#7c3aed;--blue-dark:#5b21b6;--gold:#d4af37;--gold-light:#e8cd8f;--navy-text:#0b1d3a}
+.loginSplit{display:grid;grid-template-columns:1.15fr 1fr;min-height:100vh;font-family:Arial,Helvetica,sans-serif;background:#fff}
+.loginSplitImage{position:relative;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;padding:50px 130px 50px 50px;overflow:hidden}
+.loginSplitImage:before{content:'';position:absolute;inset:0;background:rgba(238,244,252,.35)}
+.loginWedgeTopGold{display:none !important;}
+.loginWedgeTop{display:none !important;}
+.loginWedgeBottomGold{display:none !important;}
+.loginWedgeBottom{display:none !important;}
+.loginPinBadge{position:absolute;left:24px;bottom:60px;width:56px;height:56px;object-fit:contain;opacity:.92;filter:drop-shadow(0 4px 10px rgba(12,31,74,.35));z-index:1}
+.loginLeftContent{position:relative;z-index:2;text-align:center;max-width:560px;display:flex;flex-direction:column;align-items:center;gap:6px}
+.loginBrandCentered{display:flex;flex-direction:column;align-items:center;margin-bottom:6px}
+.loginBadge{width:120px;height:120px;object-fit:contain;filter:drop-shadow(0 8px 18px rgba(12,31,74,.25));margin-bottom:14px}
+.loginBadge.small{width:78px;height:78px;margin-bottom:10px}
+.loginBrandCentered h1,.loginBrand h1{font-family:Georgia,'Times New Roman',serif;color:var(--navy-text);font-size:40px;margin:0;letter-spacing:.5px}
+.loginBrand h1{font-size:30px}
+.goldRule{display:flex;align-items:center;justify-content:center;gap:8px;width:220px;margin:12px auto 10px}
+.goldRule span{flex:1;height:2px;background:linear-gradient(90deg,transparent,var(--gold))}
+.goldRule span:last-child{background:linear-gradient(90deg,var(--gold),transparent)}
+.goldRule i{width:7px;height:7px;border-radius:50%;background:var(--gold);flex:0 0 auto}
+.loginTag{font-size:12.5px;letter-spacing:2.5px;color:var(--navy-text);font-weight:bold;margin:0 0 22px;opacity:.85}
+.loginQuote2{font-family:Georgia,serif;font-style:italic;font-size:26px;color:var(--navy-text);margin:6px 0 6px;font-weight:bold}
+.loginSub2{color:#3f4f72;font-size:15px;margin:0 0 34px}
+.loginFeatures{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;width:100%}
+.loginFeatures>div{display:flex;flex-direction:column;align-items:center;gap:6px}
+.loginFeatures svg{width:30px;height:30px;color:var(--navy);background:rgba(12,31,74,.08);border-radius:50%;padding:7px;box-sizing:content-box}
+.loginFeatures b{font-size:13px;color:var(--navy-text)}
+.loginFeatures small{font-size:11.5px;color:#5a6d94;line-height:1.35}
+.loginSplitForm{background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:50px 40px;position:relative;z-index:2}
+.loginBrand{text-align:center;margin-bottom:22px}
+.loginBrand p{color:#5a6d94;margin:6px 0 0;font-size:13px}
+.loginRoleTabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:#eef1f8;border-radius:14px;padding:6px;width:100%;max-width:420px;margin-bottom:26px}
+.loginRoleTabs button{display:flex;align-items:center;justify-content:center;gap:8px;border:0;background:transparent;padding:12px;border-radius:10px;font-weight:bold;color:#3f5b96;cursor:pointer;font-size:13.5px}
+.loginRoleTabs button.active{background:var(--blue);color:#fff;box-shadow:0 8px 18px rgba(124,58,237,.3)}
+.loginFormTitle{color:var(--navy-text);font-size:21px;margin:0 0 18px;text-align:center;font-weight:bold}
+.splitForm{width:100%;max-width:420px;display:grid;gap:6px}
+.splitForm label{font-size:12.5px;color:var(--navy-text);font-weight:bold;margin-top:8px}
+.inputWrap{display:flex;align-items:center;gap:10px;border:1px solid #d8dde8;border-radius:12px;padding:12px 14px;background:#fff;color:var(--navy-text)}
+.inputWrap svg{color:#9aa5bd;flex:0 0 auto}
+.inputWrap input,.inputWrap select{border:0;outline:0;flex:1;font-size:14px;background:transparent;color:var(--navy-text);width:100%}
+.signupSplit{align-items:stretch}
+.signupSplit .loginSplitForm{overflow-y:auto;max-height:100vh;padding-top:36px;padding-bottom:36px}
+.signupForm{max-width:440px}
+.signupForm .signupRow{gap:14px;margin-top:0}
+.signupForm .signupRow>div{display:flex;flex-direction:column}
+.pwToggle{border:0;background:none;cursor:pointer;color:#9aa5bd;display:flex;padding:0}
+.forgotRow{text-align:right;margin:4px 0 6px}
+.linklike{border:0;background:none;color:var(--blue);font-weight:bold;cursor:pointer;font-size:12.5px}
+.splitBtn{display:flex;align-items:center;justify-content:center;gap:8px;border:0;background:var(--blue);color:#fff;padding:14px;border-radius:12px;font-weight:bold;font-size:15px;margin-top:6px;cursor:pointer}
+.splitBtn:hover{background:var(--blue-dark)}
+.splitBtn:disabled{opacity:.7}
+.splitFoot{text-align:center;font-size:13px;color:#5a6f9c;margin-top:14px}
+.splitFoot a{color:var(--blue);font-weight:bold}
+@media(max-width:900px){.loginSplit{grid-template-columns:1fr}.loginSplitImage{display:none}}footer{background:#f9edff;padding:70px max(8%,calc((100% - 1400px)/2)) 25px;color:#5f0870}.footgrid{display:grid;grid-template-columns:1.2fr .8fr .9fr 1.1fr;gap:60px}.footgrid>div{display:flex;flex-direction:column;gap:15px}.footgrid p{line-height:1.5;margin:0;display:flex;gap:10px}.footgrid svg{width:18px}.footgrid h3{font-size:22px}.subscribe{display:flex;background:#fff;border:1px solid #d49be6;border-radius:30px;padding:5px}.subscribe input{border:0;outline:0;min-width:0;padding:10px}.subscribe button{border:0;background:#9810c9;color:#fff;border-radius:25px;padding:10px}.copyright{border-top:1px solid #e1cdeb;margin-top:45px;padding-top:25px;display:flex;justify-content:space-between}.scroll{position:fixed;right:25px;bottom:25px;background:#900eb7;color:#fff;border:0;border-radius:50%;width:52px;height:52px;box-shadow:0 5px 15px #0003}
+@media(max-width:900px){.header nav{display:none}.header nav.open{display:flex;position:absolute;top:84px;left:0;right:0;background:#fff;flex-direction:column;padding:25px}.hamb{display:block}.hero{grid-template-columns:1fr;padding:50px 25px}.hero h1{font-size:44px}.heroPic{height:350px}.doctorGrid{grid-template-columns:repeat(2,1fr)}.serviceGrid,.footgrid{grid-template-columns:1fr 1fr}.profile,.bookingGrid,.contact{grid-template-columns:1fr}.profileLeft{text-align:center}.profile{margin:20px}.booking{margin:20px}.infoGrid{grid-template-columns:1fr}}@media(max-width:560px){.stats{gap:20px}.cert h2,.team h2,.pagehead h1{font-size:34px}.doctorGrid,.serviceGrid,.footgrid,.testgrid{grid-template-columns:1fr}.infoGrid{grid-template-columns:1fr}.patient{grid-template-columns:1fr}.patient h3,.patient .wide{grid-column:auto}.profile{padding:20px}.profileTop{padding:0 15px}.profileTop h2{font-size:18px}.copyright{flex-direction:column;gap:10px}}
+
+html{scroll-behavior:smooth}.header{position:sticky;top:0;z-index:1000}.paymentMethods{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0 18px}.paymentMethods button{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;border:1px solid #dfbceb;border-radius:28px;background:#fff;color:#5f0870;font-weight:700;cursor:pointer}.paymentMethods button.selected{background:#9810c9;color:#fff;border-color:#9810c9}.paymentMethods svg{width:18px}.btn:disabled{opacity:.65;cursor:not-allowed}@media(max-width:560px){.paymentMethods{grid-template-columns:1fr}}
+.adminNav{display:flex;align-items:center;gap:6px;color:#76078c}.adminPage{min-height:800px;padding:45px max(5%,calc((100% - 1400px)/2));background:#f8f4fb;font-family:Arial,sans-serif}.adminHeading{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}.adminHeading span{font-size:12px;letter-spacing:2px;color:#880aa9;font-weight:800}.adminHeading h1{font:700 38px Georgia,serif;margin:6px 0;color:#36073f}.adminHeading p{margin:0;color:#7b7080}.adminHeading button{border:1px solid #cfa9dd;background:#fff;color:#5f0870;padding:10px 18px;border-radius:10px;cursor:pointer}.adminStats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:24px}.adminStats>div{background:#fff;padding:22px;border-radius:16px;box-shadow:0 5px 20px #36073f0d;display:flex;align-items:center;gap:15px}.adminStats svg{width:42px;height:42px;padding:10px;border-radius:12px;background:#f8e8ff;color:#8608a9}.adminStats span{display:flex;flex-direction:column;color:#7c7180}.adminStats b{font-size:27px;color:#36073f}.adminPanel,.adminGate{background:#fff;border-radius:16px;padding:24px;box-shadow:0 5px 20px #36073f0d;margin-bottom:24px}.adminGate{max-width:700px;margin:30px auto;line-height:1.8}.panelTitle{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.panelTitle h2{margin:0;color:#36073f}.panelTitle span{color:#7c7180}.adminTableWrap{overflow:auto}.adminTable{width:100%;border-collapse:collapse;text-align:left}.adminTable th{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#7c7180;background:#f9f5fb;padding:13px}.adminTable td{padding:14px 13px;border-bottom:1px solid #f1edf4;color:#4d3152}.adminTable td small{display:block;color:#8a8290;margin-top:4px}.adminTable select{border:1px solid #d9bfe4;border-radius:20px;padding:8px 12px;background:#fff;color:#5f0870}.adminDoctorGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.adminDoctor{border:1px solid #eae2ee;border-radius:14px;padding:12px;display:flex;align-items:center;gap:12px}.adminDoctor img{width:58px;height:58px;border-radius:50%;object-fit:contain;background:#f8eaff}.adminDoctor div{display:flex;flex-direction:column;min-width:0;flex:1}.adminDoctor b{color:#36073f}.adminDoctor small{color:#7e7483;margin:3px 0}.adminDoctor span{color:#8608a9;font-weight:700}.adminDoctor button{border:0;background:#fff0f0;color:#c43838;border-radius:9px;padding:8px;cursor:pointer}@media(max-width:900px){.adminStats{grid-template-columns:1fr 1fr}.adminDoctorGrid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.adminStats,.adminDoctorGrid{grid-template-columns:1fr}.adminHeading{align-items:flex-start;gap:15px}.adminHeading h1{font-size:30px}}
+
+.appointmentActions{max-width:900px;margin:-10px auto 18px;display:flex;justify-content:flex-end}.clearAllBtn{border:1px solid #e7b4b4;background:#fff;color:#b42318;border-radius:25px;padding:10px 18px;display:inline-flex;align-items:center;gap:8px;font-weight:bold;cursor:pointer}.clearAllBtn:hover{background:#fff3f2}.clearAllBtn:disabled{opacity:.6;cursor:not-allowed}.appointmentEmpty{max-width:900px;margin:30px auto;background:#fff;border-radius:18px;padding:55px 25px;text-align:center;box-shadow:0 5px 20px #0001;color:#726675}.appointmentEmpty svg{color:#9410b9}.appointmentEmpty h2{color:#50075c;margin:14px 0 8px}.appointmentEmpty .btn{margin-top:15px}.appointmentList>div.latestAppointment{border:1px solid #d49be6;box-shadow:0 8px 24px #950bbd20}.latestLabel{display:inline-block;margin-top:5px;color:#8608a9;font-weight:bold}.appointmentList h3{margin:0 0 6px}.appointmentList p{margin:0}.appointmentList>div>svg{color:#5f0870;flex:0 0 auto}
+
+
+/* Specific-date calendar picker */
+.calendarPicker{position:relative;display:inline-block}
+.datePick{cursor:pointer}
+.datePick svg{margin-top:4px}
+.calendarPopup{position:absolute;z-index:50;top:calc(100% + 10px);left:0;min-width:290px;padding:18px;background:#fff;border:1px solid #dfbdeb;border-radius:16px;box-shadow:0 14px 35px rgba(68,0,80,.14)}
+.calendarPopup label{display:block;margin-bottom:10px;font-weight:700;color:#63087a}
+.calendarPopup input[type="date"]{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid #dfbdeb;border-radius:10px;font:inherit;color:#35073d;background:#fff}
+.calendarPopup input[type="date"]:focus{outline:2px solid #9810c9;outline-offset:2px}
+.calendarClose{margin-top:10px;width:100%;padding:9px;border:0;border-radius:9px;background:#f6e8fb;color:#63087a;font-weight:700;cursor:pointer}
+@media(max-width:600px){.calendarPopup{min-width:260px}}
+
+
+/* Patient information shown inside My Appointments */
+.appointmentDetails{flex:1;min-width:0}
+.appointmentPatient{margin-top:12px;padding:12px 14px;background:#fbf3ff;border:1px solid #ebd2f4;border-radius:12px;display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:6px 20px}
+.appointmentPatient>strong{grid-column:1/-1;color:#680786;margin-bottom:3px}
+.appointmentPatient span{font-size:.92rem;color:#422148;overflow-wrap:anywhere}
+.appointmentPatient .patientEmail{grid-column:1/-1}
+.appointmentStatus{align-self:flex-start}
+@media(max-width:650px){.appointmentPatient{grid-template-columns:1fr}.appointmentPatient .patientEmail{grid-column:auto}}
+
+
+/* Separate doctor/service appointment tabs */
+.appointmentTabs{max-width:900px;margin:-8px auto 24px;display:grid;grid-template-columns:1fr 1fr;gap:12px;background:#f6e9fa;padding:7px;border-radius:16px;border:1px solid #e7d1f0}
+.appointmentTabs button{border:0;background:transparent;color:#624567;border-radius:11px;padding:14px 18px;font:700 16px Georgia,serif;cursor:pointer;transition:.2s;display:flex;align-items:center;justify-content:center;gap:9px}
+.appointmentTabs button:hover{background:#fdf8ff;color:#5f0870}
+.appointmentTabs button.active{background:#fff;color:#770794;box-shadow:0 4px 14px #5f087018}
+.appointmentTabs button span{min-width:24px;height:24px;padding:0 6px;border-radius:14px;background:#f1dff8;color:#5f0870;display:inline-flex;align-items:center;justify-content:center;font:700 12px Arial,sans-serif}
+.appointmentTabs button.active span{background:#9810c9;color:#fff}
+@media(max-width:600px){.appointmentTabs{grid-template-columns:1fr}.appointmentTabs button{font-size:15px}.appointmentActions{justify-content:center}.clearAllBtn{width:100%;justify-content:center}}
+
+.patient .patientProblem{grid-column:1/-1;border:1px solid #dfbfea;border-radius:18px;padding:14px;background:#fff;resize:vertical;min-height:100px;outline:none}.patient .patientProblem:focus{border-color:#9d10ce;box-shadow:0 0 0 3px #9d10ce18}.patientProblemDisplay{grid-column:1/-1;margin-top:6px;padding-top:10px;border-top:1px solid #e8d9ee;line-height:1.5;white-space:pre-wrap}
+
+.patientAiBrief{
+  grid-column:1/-1;
+  display:block;
+  margin-top:8px;
+  padding:12px 14px;
+  border-radius:10px;
+  background:#fbf0ff;
+  border:1px solid #deb9ef;
+  line-height:1.55;
+  white-space:pre-line;
+}
+.patientAiBrief b{color:#6f087f;margin-right:6px}
+
+.aiVoiceControls{display:flex;margin-top:14px}
+.aiVoiceBtn{display:inline-flex;align-items:center;gap:8px;border:1px solid #9d10b9;background:#fff;color:#6f087f;border-radius:999px;padding:9px 16px;font:inherit;font-weight:700;cursor:pointer;transition:.2s ease}
+.aiVoiceBtn:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(0,0,0,.08)}
+.aiVoiceBtn.stop{border-color:#dc2626;color:#b91c1c}
+
+
+/* Multilingual AI problem brief */
+.aiLanguageTabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 14px}
+.aiLanguageTabs button{border:1px solid #d5a7e8;background:#fff;color:#6f087f;border-radius:999px;padding:7px 16px;font:700 14px Arial,sans-serif;cursor:pointer}
+.aiLanguageTabs button.active{background:#860aa6;color:#fff;border-color:#860aa6;box-shadow:0 3px 10px #6f087f22}
+.aiBriefText{display:block;white-space:pre-line;line-height:1.7}
+.generateLanguagesBtn{display:block;margin-top:14px;border:1px solid #860aa6;background:#f8eaff;color:#6f087f;border-radius:10px;padding:9px 13px;font-weight:700;cursor:pointer}
+.generateLanguagesBtn:disabled{opacity:.65;cursor:wait}
+.voiceNote{display:block;margin-top:9px;color:#706075;font:12px/1.4 Arial,sans-serif}
+
+
+
+/* ---- Admin dashboard: header, doctors tab, payments tab ---- */
+.adminHeaderBar{background:#fff}
+.adminHeaderBar .logo small{color:#8a7f8d}
+.adminRefreshBtn{background:#f8eaff;border:1px solid #dfbceb;color:#7e079b;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.adminRefreshBtn:hover{background:#f0d4fb}
+.doctorStatList{display:grid;gap:16px}
+.doctorStatCard{padding:0;overflow:hidden}
+.doctorStatHead{display:flex;align-items:center;gap:16px;width:100%;border:0;background:#fff;padding:20px 24px;cursor:pointer;text-align:left}
+.doctorStatHead img{width:54px;height:54px;border-radius:50%;object-fit:contain;background:#f8eaff;flex:0 0 auto}
+.doctorStatName{flex:1;min-width:160px}
+.doctorStatName b{display:block;color:#36073f;font-size:17px}
+.doctorStatName small{color:#8a7f8d}
+.doctorStatNums{display:flex;gap:22px;margin-right:10px}
+.doctorStatNums span{display:flex;flex-direction:column;align-items:center;color:#7c7180;font-size:12px}
+.doctorStatNums b{font-size:20px;color:#36073f}
+.doctorStatNums .pendingNum b{color:#b8860b}
+.doctorStatNums .completedNum b{color:#1a9c5a}
+.doctorStatHead svg.chevOpen{transform:rotate(180deg)}
+.doctorStatHead>svg:last-child{transition:.2s;color:#8608a9;flex:0 0 auto}
+.availabilityToggle{display:flex;align-items:center;gap:8px;border:1px solid transparent;border-radius:20px;padding:8px 16px;font-size:13px;font-weight:700;cursor:pointer;flex:0 0 auto}
+.availabilityToggle .availabilityDot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.availabilityToggle.is-available{background:#e1f7ec;color:#1a9c5a;border-color:#bdeed4}
+.availabilityToggle.is-available .availabilityDot{background:#1a9c5a}
+.availabilityToggle.is-unavailable{background:#ffe3e3;color:#c43838;border-color:#f7c2c2}
+.availabilityToggle.is-unavailable .availabilityDot{background:#c43838}
+.addDoctorPanel{padding:0;overflow:hidden;margin-bottom:16px}
+.addDoctorToggle{display:flex;align-items:center;justify-content:space-between;width:100%;border:0;background:#fff;padding:18px 24px;cursor:pointer;font-size:16px;font-weight:700;color:#36073f}
+.addDoctorToggle span{display:flex;align-items:center;gap:10px;color:#7e079b}
+.addDoctorForm{border-top:1px solid #f1edf4;padding:22px 24px;display:grid;grid-template-columns:1fr 1fr;gap:14px;background:#fcf8fe}
+.addDoctorForm input,.addDoctorForm select,.addDoctorForm textarea{border:1px solid #dfbfea;border-radius:16px;padding:12px 16px;background:#fff}
+.addDoctorForm textarea{border-radius:16px;resize:vertical}
+.addDoctorForm .wide{grid-column:1/-1}
+@media(max-width:900px){.addDoctorForm{grid-template-columns:1fr}}
+.doctorApptList{border-top:1px solid #f1edf4;padding:18px 24px;display:grid;gap:14px;background:#fcf8fe}
+.doctorApptEmpty{color:#8a7f8d;margin:0}
+.doctorApptCard{background:#fff;border:1px solid #eee2f2;border-radius:14px;padding:16px 18px}
+.doctorApptTop{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.doctorApptTop b{color:#36073f;font-size:16px}
+.doctorApptMeta{margin:4px 0;color:#5f5763;font-size:13.5px}
+.doctorApptProblem{margin:4px 0 12px;color:#4d3152;font-size:14px}
+.doctorApptActions{display:flex;gap:10px;flex-wrap:wrap}
+.completeBtn{display:flex;align-items:center;gap:6px;border:0;background:#1a9c5a;color:#fff;border-radius:20px;padding:9px 16px;font-weight:700;cursor:pointer}
+.completeBtn:hover{background:#158048}
+.confirmBtn{border:1px solid #9810c9;background:#fff;color:#7e079b;border-radius:20px;padding:9px 16px;font-weight:700;cursor:pointer}
+.statusSelectLabel{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#5f5763}
+.statusSelect{border:1px solid #e3d3e8;background:#fff;color:#36073f;border-radius:20px;padding:8px 14px;font-weight:700;font-size:13.5px;cursor:pointer;text-transform:capitalize}
+.statusSelect:focus{outline:2px solid #9810c9}
+.completedTag{display:flex;align-items:center;gap:6px;color:#1a9c5a;font-weight:700}
+.statusPill{padding:6px 12px;border-radius:20px;font-size:12px;font-weight:700;text-transform:capitalize;display:inline-block}
+.status-pending{background:#fff3d6;color:#b8860b}
+.status-confirmed{background:#e3ecff;color:#2a4fc9}
+.status-completed{background:#e1f7ec;color:#1a9c5a}
+.status-cancelled{background:#ffe3e3;color:#c43838}
+.methodPill{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:20px;font-size:12px;font-weight:700}
+.method-online{background:#f0e6ff;color:#7e079b}
+.method-cash{background:#fff0dc;color:#b8650b}
+.markPaidBtn{border:0;background:#8608a9;color:#fff;border-radius:16px;padding:7px 12px;font-size:12px;font-weight:700;cursor:pointer;white-space:nowrap}
+.markPaidBtn:hover{background:#6f087f}
+@media(max-width:900px){.doctorStatHead{flex-wrap:wrap}.doctorStatNums{gap:14px;margin-right:0}}

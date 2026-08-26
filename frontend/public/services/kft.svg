@@ -1,0 +1,17 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gkft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#gkft)"/>
+  <circle cx="528.0" cy="63.00000000000001" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="48.0" cy="414.0" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="#ffffff" opacity="0.10"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="none" stroke="#f5c451" stroke-width="3" opacity="0.65"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(240.0,155.0)">
+<path d="M40 20 c-22 0 -30 24 -22 42 c8 18 -4 26 4 40 c10 16 34 8 36 -10 c2 -14 -8 -18 -6 -32 c2 -16 10 -20 6 -32 c-4 -10 -10 -8 -18 -8 Z" />
+<path d="M46 60 c8 -4 14 -2 18 6" stroke="#f5c451" stroke-width="5"/>
+  </g>
+</svg>

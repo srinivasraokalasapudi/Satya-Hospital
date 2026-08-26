@@ -1,0 +1,17 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g24x7-pharmacy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g24x7-pharmacy)"/>
+  <circle cx="528.0" cy="63.00000000000001" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="48.0" cy="414.0" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="#ffffff" opacity="0.10"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="none" stroke="#f5c451" stroke-width="3" opacity="0.65"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(240.0,155.0)">
+<rect x="20" y="20" width="80" height="80" rx="14" />
+<path d="M60 38 v44 M38 60 h44" stroke="#f5c451" stroke-width="10"/>
+  </g>
+</svg>

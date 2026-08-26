@@ -1,0 +1,17 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gcardiology-consultation" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b3bf0"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#gcardiology-consultation)"/>
+  <circle cx="528.0" cy="63.00000000000001" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="48.0" cy="414.0" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="none" stroke="#f5c451" stroke-width="3" opacity="0.65"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="#ffffff" opacity="0.10"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(240.0,155.0)">
+<path d="M60 30 c-14 -22 -46 -18 -46 8 c0 26 46 52 46 52 s46 -26 46 -52 c0 -26 -32 -30 -46 -8 Z"/>
+<path d="M0 66 h20 l8 -18 l10 30 l10 -45 l8 33 h64" stroke="#f5c451"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gendocrinology-consultation" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9333ea"/>
+      <stop offset="1" stop-color="#581c87"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#gendocrinology-consultation)"/>
+  <circle cx="528.0" cy="63.00000000000001" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="48.0" cy="414.0" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="#ffffff" opacity="0.10"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="none" stroke="#f5c451" stroke-width="3" opacity="0.65"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(240.0,155.0)">
+<path d="M60 40 c-10 -14 -34 -10 -34 8 c0 12 12 14 20 18 c-8 4 -20 6 -20 18 c0 18 24 22 34 8 c10 14 34 10 34 -8 c0 -12 -12 -14 -20 -18 c8 -4 20 -6 20 -18 c0 -18 -24 -22 -34 -8 Z" />
+<circle cx="60" cy="66" r="6" fill="#f5c451" stroke="none"/>
+  </g>
+</svg>

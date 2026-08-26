@@ -1,0 +1,18 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ggynecology-consultation" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b3bf0"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#ggynecology-consultation)"/>
+  <circle cx="528.0" cy="63.00000000000001" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="48.0" cy="414.0" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="none" stroke="#f5c451" stroke-width="3" opacity="0.65"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="#ffffff" opacity="0.10"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(240.0,155.0)">
+<circle cx="60" cy="45" r="30"/>
+<path d="M60 75 v40 M45 100 h30"/>
+<circle cx="60" cy="45" r="9" fill="#f5c451" stroke="none"/>
+  </g>
+</svg>

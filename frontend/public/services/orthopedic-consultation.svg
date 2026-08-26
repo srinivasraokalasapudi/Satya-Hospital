@@ -1,0 +1,17 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gorthopedic-consultation" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b3bf0"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#gorthopedic-consultation)"/>
+  <circle cx="528.0" cy="63.00000000000001" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="48.0" cy="414.0" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="none" stroke="#f5c451" stroke-width="3" opacity="0.65"/>
+  <circle cx="300.0" cy="215.0" r="118" fill="#ffffff" opacity="0.10"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(240.0,155.0)">
+<path d="M20 90 c-11 11 -11 25 0 36 c11 11 25 11 34 0 l50 -50 c11 -11 11 -25 0 -34 c-11 -11 -25 -11 -34 0 Z" transform="translate(0,-40)"/>
+<circle cx="24" cy="46" r="9" fill="#f5c451" stroke="none"/><circle cx="96" cy="118" r="9" fill="#f5c451" stroke="none"/>
+  </g>
+</svg>
